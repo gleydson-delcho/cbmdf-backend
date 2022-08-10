@@ -7,7 +7,7 @@
     "test": "jest",
     "dev": "ts-node-dev src/server.ts",
     "build": "npm start",
-    "start": "npx tsc"
+    "start": "node src/server.js"
   },
   "keywords": [
     "aprovadoscmdf, cfp20, formulario"
