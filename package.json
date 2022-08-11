@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev src/server.ts",
-    "build": "prisma generate & node dist/server.js",
+    "build": "prisma generate",
     "start": "node dist/server.js"
   },
   "keywords": [
